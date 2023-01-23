@@ -70,6 +70,8 @@ public class FileOperations {
 			} 
 			
 			}catch (Exception e) {
+				
+				//Returns menu options for another selection due to error.
 				displayMenuFileOptions();
 				
 			}
@@ -91,9 +93,11 @@ public class FileOperations {
 					 newFile.createNewFile();
 			 }
 			 catch (Exception e) {
+				 //Returns menu options for another selection due to error.
 				displayMenuFileOptions();
 				fetchFileOperationOption();
 		}
+				//File is added and menu options reappear for new chore
 			 	System.out.println("Your file has been added successfully. :) \n\n\n");
 			 	displayMenuFileOptions();
 			 	fetchFileOperationOption();
@@ -111,17 +115,20 @@ public class FileOperations {
 			Path path = Paths.get(newFilePath);
 			
 			if (!Files.exists(path)) {
+				//No file in designated folder returns error.
 				System.out.println("Your file could not be found. :( Try again.\n\n\n");
 				return;
 			}
 			
 			File file = new File(newFilePath);
 			if(file.delete()) {
+				//File is deleted with confirmation.
 				System.out.println("Your file has been deleted. :) \n");
 				displayMenuFileOptions();
 			 	fetchFileOperationOption();
 				
 			} else {
+				//If no file is in the designated folder, error message is returned.
 				System.out.println("Your file could not be deleted. :( Check your spelling.\n\n\n");
 				displayMenuFileOptions();
 			 	fetchFileOperationOption();
@@ -141,10 +148,12 @@ public class FileOperations {
 			Path path = Paths.get(newFilePath);
 			
 			if (!Files.exists(path)) {
+				//No file in folder returns an empty search and error.
 				System.out.println("Your file could not be found. :( \n\n\n");
 				displayMenuFileOptions();
 			 	fetchFileOperationOption();
 			}else {
+				//File is found, printed, and then confirmed.
 				System.out.println("Success! Your file '" + path.getFileName() + "' has been found. :)\n\n\n");
 				displayMenuFileOptions();
 			 	fetchFileOperationOption();
