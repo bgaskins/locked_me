@@ -7,7 +7,7 @@ Simple Java Console based program that allows user to input menu options to:
 - Search files<br>
 - Add/Delete files<br>
 <br>
-<h4>Tech:</h4> Java, Terminal
+<h4>Tech:</h4> Java, Console
 <br>
 <br>
 <h4>Demo:</h4>
