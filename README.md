@@ -1,6 +1,5 @@
 <h3> LockedMe: File Handler </h3>
 <br>
-<br>
 Simple Java Console based program that allows user to input menu options to:
 <br>
 - Display files<br>
