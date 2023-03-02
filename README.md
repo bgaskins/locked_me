@@ -1,21 +1,17 @@
-<h3> Locked Me </h3>
-<br>
+<h3> LockedMe </h3>
 <br>
 <br>
 Simple Java Console based program that allows user to input menu options to:
 <br>
-- Display files
-- Search files
-- Add/Delete files
+- Display files<br>
+- Search files<br>
+- Add/Delete files<br>
+<br>
+<h4>Tech:</h4> Java, Terminal
 <br>
 <br>
-<br>
-Tech: Java, Terminal
-<br>
-<br>
-<br>
-<br>
-https://user-images.githubusercontent.com/96695276/214114367-f029fa28-b2f5-469f-8243-d70dfe39d8b8.mp4
+<h4>Demo:</h4>
+<img width="690" alt="demo" src="https://user-images.githubusercontent.com/96695276/214114367-f029fa28-b2f5-469f-8243-d70dfe39d8b8.mp4">
 <br>
 <br>
 <br>
