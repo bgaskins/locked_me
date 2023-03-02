@@ -1,4 +1,4 @@
-<h3> LockedMe </h3>
+<h3> LockedMe: File Handler </h3>
 <br>
 <br>
 Simple Java Console based program that allows user to input menu options to:
@@ -7,10 +7,10 @@ Simple Java Console based program that allows user to input menu options to:
 - Search files<br>
 - Add/Delete files<br>
 <br>
-<h4>Tech:</h4> Java, Console
+<h4> Tech: </h4> Java, Console
 <br>
 <br>
-<h4>Demo:</h4>
+<h4> Demo: </h4>
 <img width="690" alt="demo" src="https://user-images.githubusercontent.com/96695276/214114367-f029fa28-b2f5-469f-8243-d70dfe39d8b8.mp4">
 <br>
 <br>
